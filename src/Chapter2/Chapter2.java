@@ -1,3 +1,5 @@
+package Chapter2;
+
 import java.util.Arrays;
 
 
@@ -23,13 +25,13 @@ public class Chapter2 {
     }
 
     //Exercise 2.2-2
-    public static void selectionSort(int[] array){
-        for (int i = 0; i < array.length-1; i++){
+    public static void selectionSort(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
             int index = i;
             int smallest = array[i];
 
-            for (int j = i+1; j < array.length; j++){
-                if (array[j] < smallest){
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[j] < smallest) {
                     smallest = array[j];
                     index = j;
                 }
